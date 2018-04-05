@@ -21,4 +21,13 @@ public class Vehicle {
 
 	}
 
+	public void desaccelerar(){
+
+		if(this.velocitat_actual >= 10){
+			this.velocitat_actual -= 10;
+		}
+
+	}
+
+
 }
